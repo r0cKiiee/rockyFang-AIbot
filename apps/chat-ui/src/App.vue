@@ -44,7 +44,7 @@
         :disabled="!message || !model || loading"
         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow disabled:opacity-50"
       >
-        {{ loading ? '发送中...' : '发送' }}
+        {{ loading ? '发送中...请等候' : '已发送' }}
       </button>
     </div>
   </div>
